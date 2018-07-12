@@ -1,0 +1,7 @@
+# Ignore them pesky log files
+*.log
+logs/   
+
+*.pdf
+
+
