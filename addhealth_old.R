@@ -19,5 +19,6 @@ edlvl <- as.integer(addhealth$H4ED2)
 edlvl <- Recode(edlvl, "1:2 = 1; 3 = 2; 4:6 = 3; 7:8 = 4; 9:10 = 5; 11 = 6; 12 = 4; 13 = 5")
 edlvl <- factor(edlvl, labels = c("noHS", "HS", "someColl", "BA", "MAProf", "PhD"))
 
-# adding some new lines for git learning
-# Adding even more
+# HERE ARE SOME LINES THAT SOULD CONFLICT WITH THE MASTER BRANCH
+# AND ANOTHER ONE HERE
+# AND A THIRD FOR GOOD MEASURE
