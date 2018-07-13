@@ -132,3 +132,15 @@ weighted_int_ped <- lm(loginc08 ~ sexabuse + physabuse + edlvl + female*ethrace 
 
 stargazer(unweighted, weighted, weighted_ped, weighted_int, weighted_int_ped, type="text")
 
+<<<<<<< HEAD
+=======
+# OLD LINE. DOESN'T WORK
+# table <- capture.output(stargazer(unweighted, weighted, weighted_ped, weighted_int, weighted_int_ped, type="latex", out = startest))
+
+
+
+
+
+
+
+>>>>>>> r_latex_test
