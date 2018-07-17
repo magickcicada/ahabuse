@@ -1,7 +1,14 @@
-# Ignore them pesky log files
-*.log
+# DIRECTORIES
 logs/   
+research/
+ahabuse_git/
+data_r/
+data_stata/
 
+# FILETYPES
 *.pdf
-
-
+*.log
+*.swp
+*.un~
+*.RData
+*.Rhistory
