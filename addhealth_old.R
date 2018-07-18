@@ -19,6 +19,5 @@ edlvl <- as.integer(addhealth$H4ED2)
 edlvl <- Recode(edlvl, "1:2 = 1; 3 = 2; 4:6 = 3; 7:8 = 4; 9:10 = 5; 11 = 6; 12 = 4; 13 = 5")
 edlvl <- factor(edlvl, labels = c("noHS", "HS", "someColl", "BA", "MAProf", "PhD"))
 
-# HERE ARE SOME LINES THAT SOULD CONFLICT WITH THE MASTER BRANCH
-# AND ANOTHER ONE HERE
-# AND A THIRD FOR GOOD MEASURE
+# SOME CONFLICTING LINES FOR STASH TESTING THIS TIME
+# MOAR MOAR MOAR (SHE CRIED, WITH A REBEL YELL)
