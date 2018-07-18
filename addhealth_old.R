@@ -18,6 +18,3 @@ addhealth <- rename(addhealth, female = `addhealth_(2) (2) Female`)
 edlvl <- as.integer(addhealth$H4ED2)
 edlvl <- Recode(edlvl, "1:2 = 1; 3 = 2; 4:6 = 3; 7:8 = 4; 9:10 = 5; 11 = 6; 12 = 4; 13 = 5")
 edlvl <- factor(edlvl, labels = c("noHS", "HS", "someColl", "BA", "MAProf", "PhD"))
-
-# SOME CONFLICTING LINES FOR STASH TESTING THIS TIME
-# MOAR MOAR MOAR (SHE CRIED, WITH A REBEL YELL)
